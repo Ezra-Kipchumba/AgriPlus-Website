@@ -1,4 +1,7 @@
+*{
+    box-sizing: border-box;
 
+}
 /* TOP SECTION  */
 .topnav{
     background-color: black;
@@ -11,18 +14,43 @@
     font-size: 14px;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 
 }
 .topnav h1{
     padding: 14px 16px;
     float: left;
+    font-size:xx-large;
+}
 
-}
-#button{
-    color: yellow;
-}
    
 /* SECTION 1 */
 
+.produce{
+    background-image: url(assets/image\ 1.png);
+    background-size: cover;
+    height: 62vw;
+}
 
+/* .produce h1{
+    font-size:60px;
+    text-align: left;
+    color: black;} */
+
+.text{
+    text-align: left;
+    font-size: xx-large;
+    justify-content: right;
+}
+
+.image2{
+    float: right;
     
+  
+}
+.button1{
+    display: flex;
+    padding: 15px 18px;
+    margin: 10px;
+}
+
