@@ -1,5 +1,8 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    max-width: 100%;
+
 
 }
 /* TOP SECTION  */
@@ -11,46 +14,63 @@
 .nav{
     text-align: center;
     padding: 36px 18px;
-    font-size: 14px;
+    font-size: 30px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 
 }
 .topnav h1{
-    padding: 14px 16px;
+    padding: 30px 16px;
     float: left;
-    font-size:xx-large;
+}
+
+.button{
+    background-color: rgb(214, 89, 31);
+    border: none;
+    text-align: center;
+    padding: 12px 30px;
+    text-decoration: none;
 }
 
    
 /* SECTION 1 */
 
+.sect1{
+    display: flex;
+    height: 120vh;
+    
+}
 .produce{
     background-image: url(assets/image\ 1.png);
     background-size: cover;
-    height: 62vw;
+    height: 63vw;
+    display: flex;
+    padding: 40px;
+    margin-top: 30px;
 }
 
-/* .produce h1{
-    font-size:60px;
-    text-align: left;
-    color: black;} */
 
 .text{
-    text-align: left;
     font-size: xx-large;
-    justify-content: right;
+    display: flex;
+    flex-direction: column;
 }
 
 .image2{
+    height: 40vw;
     float: right;
+    display: flex;
     
   
 }
 .button1{
-    display: flex;
-    padding: 15px 18px;
-    margin: 10px;
-}
+    background-color: rgb(214, 89, 31);
+    border: none;
+    text-align: center;
+    padding: 22px 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+} 
 
