@@ -46,31 +46,58 @@
     background-size: cover;
     height: 63vw;
     display: flex;
-    padding: 40px;
-    margin-top: 30px;
+    /* padding: 40px; */
+    /* margin-top: 30px; */
 }
 
 
 .text{
-    font-size: xx-large;
+    font-size: xxx-large;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 80px;
 }
 
 .image2{
-    height: 40vw;
-    float: right;
-    display: flex;
+    /* float: center;
+    display: flex; */
+
+    
     
   
 }
 .button1{
     background-color: rgb(214, 89, 31);
     border: none;
-    text-align: center;
-    padding: 22px 30px;
+    text-align: start;
+    padding: 24px 10px;
     text-decoration: none;
     color: white;
     font-weight: 800;
+    margin-right: 65%;
+    margin: 20%;
 } 
+
+/* SECTION 2 */
+
+.sect2{
+    /* background-color: white; */
+    font-size: xx-large;
+    font-weight: 700;
+    /* display: flex; */
+}
+.goals{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    /* background-color: white; */
+    padding-top: 20px;
+    margin: 80px;
+    
+}
+
+
 
