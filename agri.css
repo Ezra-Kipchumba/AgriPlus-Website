@@ -130,4 +130,27 @@
     margin: 40px;
 }
 
+/* SECTION 5 */
 
+/* .list{
+    display: flex;
+    margin: 30px; */
+
+.list>h2{
+    margin: 30px;
+    font-size: xx-large;
+    height: 100%;
+
+}
+
+.float1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.float2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
