@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    /* background-color: aliceblue; */
     margin: 0;
     max-width: 100%;
 
@@ -93,11 +94,30 @@
     flex-direction: row;
     justify-content: space-evenly;
     text-align: center;
-    /* background-color: white; */
-    padding-top: 20px;
-    margin: 80px;
+    padding: 40px;
+    margin: 110px;
+    box-sizing: border-box;
+    border: 30px dotted;
     
 }
 
+/* SECTION3 */
+
+.sect3{
+    display: flex;
+    margin: 80px;
+}
+.sect3a{
+    text-align: left;
+    margin: 60px;
+    font-size: xx-large;
+    
+}
+.sect3a>h2{
+    margin: 30px;
+}
+.sect3b{
+    float: right;
+}
 
 
