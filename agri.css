@@ -1,0 +1,23 @@
+
+/* TOP SECTION  */
+
+.topnav{
+    background-color: black;
+    color: white;
+    padding: 5px;
+
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    
+}
+.topend{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.btn{
+    display: flex;
+    background-color: ;
+}
