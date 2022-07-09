@@ -1,23 +1,28 @@
 
 /* TOP SECTION  */
-
 .topnav{
     background-color: black;
     color: white;
-    padding: 5px;
-
+    overflow: hidden;
 }
 .nav{
+    text-align: center;
+    padding: 36px 18px;
+    font-size: 14px;
     display: flex;
-    justify-content: center;
-    
-}
-.topend{
-    display: flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
 
 }
-.btn{
-    display: flex;
-    background-color: ;
+.topnav h1{
+    padding: 14px 16px;
+    float: left;
+
 }
+#button{
+    color: yellow;
+}
+   
+/* SECTION 1 */
+
+
+    
