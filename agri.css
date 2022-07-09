@@ -120,4 +120,14 @@
     float: right;
 }
 
+/* SECTION 4 */
+
+.sect4{
+    font-size: xx-large;
+    text-align: center;
+}
+.sect4>h2{
+    margin: 40px;
+}
+
 
