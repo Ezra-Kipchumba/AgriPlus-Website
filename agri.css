@@ -266,6 +266,13 @@
     justify-content: space-around;
     border-radius: 30px;
 }
+.logos1{
+    display: flex;
+    margin: 3px;
+    justify-content: space-around;
+    border-radius:  30px circle;
+
+}
 .icons2{
     display: flex;
     flex-direction: row;
