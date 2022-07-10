@@ -268,10 +268,14 @@
 }
 .logos1{
     display: flex;
-    margin: 3px;
+    margin: 30px;
     justify-content: space-around;
-    border-radius:  30px circle;
+    width: 30%;
 
+}
+.app{
+    font-size: x-large;
+    margin: 40px;
 }
 .icons2{
     display: flex;
