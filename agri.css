@@ -64,6 +64,8 @@
 .image2{
     /* float: center;
     display: flex; */
+    margin-right: 3%;
+    margin-top: 20%;
 
     
     
@@ -133,9 +135,11 @@
 
 /* SECTION 5 */
 
-/* .list{
+.list{
     display: flex;
-    margin: 30px; */
+    flex-direction: column;
+}
+    
 
 .list>h2{
     margin: 30px;
@@ -146,14 +150,17 @@
 
 .float1{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
 
+}
+.products{
+    margin: 20px;
 }
 .float2{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    /* flex-direction: row; */
+    justify-content: space-around;
 }
 #amount{
     font-weight: 800;
@@ -175,20 +182,85 @@
 }
 .sect5 h5{
     font-size: x-large;
-    margin: 10px;
+    margin: 30px;
     text-align: start;
 }
 .esteemed{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    margin: 30px;
     
-
 }
 .esteem{
     border: 1px solid whitesmoke;
     box-shadow: -2px 2px 5px;
-    margin: 80px;
-    padding: 40px;
-
+    margin: 90px;
+    padding: 30px;
 }
+.check{
+    color: orange;
+    padding: 20px;
+    size: 100px;
+}
+.read{
+    display: flex;
+    justify-content: right;
+    margin-right: 82px;
+    font-size: xx-large;
+    text-decoration: underline 5px coral;
+    
+}
+.arrow{
+    font-size:10mm;
+    color:orange
+} 
+
+/* FOOTER  */
+
+.footer{
+    background-color: black;
+    color: white;
+}
+.sect6{
+    text-align: center;
+    font-size: x-large;
+    margin: 80px;
+    padding: 80px;
+}
+.sect6 h3{
+    margin: 18px;
+}
+.sect6 h5{
+    margin: 20px;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.box{
+    background-color: beige;
+    color: black;
+}
+.box2{
+    background-color: rgb(255, 94, 0);
+}
+
+.bottom{
+    border-top: 5px solid white;
+    display: flex;
+    
+}
+.icons1{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    padding: 30px;
+}
+.icons2{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    padding: 20px;
+    justify-content: space-around;
+}
+
